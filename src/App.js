@@ -6,7 +6,9 @@ const App = () => {
   return (
    <>
     <Navber />
-    <Outlet />
+    <div className='mx-[300px]'>
+      <Outlet />
+    </div>
    </>
   )
 }
